@@ -1,0 +1,65 @@
+div.print-design{
+	margin-top: 100px;
+	position: relative;
+}
+div.print-design>.print-design-left-column{
+	background-image: url('../image/print design.png');
+	width: 47.8%;
+	height: 562px;
+	display: inline-block;
+	margin-right: 36px;
+	margin-top: -7px;
+	background-position-x: 35%;
+    background-position-y: 78%;
+}
+.print-design-right-column{
+	width: 47.8%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 68px;
+
+
+}
+.design-title>.title-1{
+	display: block;
+	font-size: 30px;
+	margin-top: -18px;
+	display: block;
+
+}
+.design-title>.title-2{
+	font-size: 48px;
+	font-family: 'MB', arial;
+}
+.design-title>.title-2:after{
+	position: absolute;
+	content: '';
+	width: 55px;
+	height: 2px;
+	top: 84px;
+    right: 436px;
+	background-color: #000;
+}
+.print-design-right-column>.text-1,.text-2{
+	font-family: 'ML', arial;
+	font-size: 18px;
+	color: #656565;
+	line-height: 27px;
+}
+.print-design-right-column>.text-1{
+	padding-top: 45px;
+}
+.print-design-right-column>.text-2{
+	padding-top: 26px;
+	
+}
+.print-design-right-column>.learn-more{
+	width: 170px;
+	height: 50px;
+	border: 1px solid #d8d8d8;
+	border-radius: 28px;
+	background-color: #fff;
+	margin-top: 46px;
+	font-size: 20px;
+	outline: none;
+}

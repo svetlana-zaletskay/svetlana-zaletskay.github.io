@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		span.active{
+			background-color: #f00;
+		}
+		.tabs-content .activ{
+			background-color: #f00;
+		}
+	</style>	
+</head>
+<body>
+	<div>
+		<span>tab 1</span> |
+		<span>tab 2</span> |
+		<span>tab 3</span>
+	</div>
+	<div class="tabs-content">
+		<div>tab 1 content</div>
+		<div>tab 2 content</div>
+		<div>tab 3 content</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(".tabs-nav span").click(
+		function(){
+		$("tabs-nav .activ ").removeClass("active");
+		$(this).addClass("active");
+		var currentIndex = $(this).attr("data'id");
+		console.log(currentIndex);
+	}
+	);
+	</script>
+</body>
+</html>

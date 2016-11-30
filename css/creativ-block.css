@@ -1,0 +1,66 @@
+@import"../fonts/montserrat/montserrat.css";
+
+.creativ-kitchen-block-title{
+	text-align: center;
+	font-family: 'MH', arial;
+	font-size: 60px;
+	height: 233px;
+	padding-top: 77px;
+}
+div.creativ-kitchen-block>div.creativ-kitchen-left-column{
+	background: url('../image/kitchen.png');
+	width: 48.5%;
+	height: 561px;
+	display: inline-block;
+	background-position: 30%;
+}
+div.creativ-kitchen-block .creativ-kitchen-right-column{
+	display: inline-block;
+	vertical-align: top;
+	width: 42%;
+	margin-left: 94px;
+	margin-top: -13px;
+}
+.kitchen-title{
+	position: relative;
+}
+.kitchen-title>.title-1{
+	display: block;
+	font-size: 30px;
+	font-family: 'ML', arial;
+}
+.kitchen-title>.title-2{
+	font-size: 48px;
+	font-family: 'MB', arial;
+}
+.kitchen-title>.title-2:after{
+	position: absolute;
+	content: '';
+	width: 55px;
+	height: 2px;
+	top: 108px;
+	left: 1px;
+	background-color: #000;
+}
+.creativ-kitchen-right-column>.text-1,.text-2{
+	color:#656565;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: 'ML', arial;
+}
+.creativ-kitchen-right-column>.text-1{
+	padding-top: 44px;
+}
+.creativ-kitchen-right-column>.text-2{
+	padding-top: 26px;
+}
+.creativ-kitchen-right-column>.learn-more{
+	width: 170px;
+	height: 50px;
+	border: 1px solid #d8d8d8;
+	border-radius: 28px;
+	background-color: #fff;
+	margin-top: 46px;
+	font-size: 20px;
+	outline: none;
+}

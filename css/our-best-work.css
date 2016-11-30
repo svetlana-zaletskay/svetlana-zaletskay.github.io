@@ -1,0 +1,108 @@
+@import"../fonts/montserrat/montserrat.css";
+
+.our-best-work{
+	text-align: center;
+	font-family: 'MH', arial;
+	font-size: 60px;
+	height: 233px;
+	padding-top: 61px;
+	height: auto;
+
+}
+.our-best-work>.images-block{
+	max-width: 1149px;
+	margin: 0 auto;
+	height: 1233px;
+	padding-top: 77px;
+	/*position: relative;*/
+}
+.images-block-left-column>.penсils{
+	background: url('../image/penсils.png');
+	background-position-x: 61%;
+	background-position-y: -8%;
+	display: inline-block;
+	width: 100%;
+	height: 372px;
+	margin-left: -19px;
+    /*margin-top: 9px;*/
+}
+.images-block-left-column>.spectacles{
+	background: url('../image/spectacles.png');
+	display: inline-block;
+	width: 100%;
+	height: 592px;
+	margin-top: 7px;
+    background-position-x: -134%;
+    /*background-position-y: -1%;*/
+    margin-left: -16px;
+}
+.images-block-center-column>.parrot{
+	background: url('../image/parrot.png');
+	display: inline-block;
+	background-position-x: 62%;
+    background-position-y: 76%;
+	width: 100%;
+	height: 589px;
+	
+}
+.images-block-center-column>.graf{
+	background: url('../image/graf.png');
+	display: inline-block;
+	width: 100%;
+	height: 367px;
+	margin-top: 16px;
+    background-position-x: 115%;
+    background-position-y: 21%;
+}
+.images-block-right-column>.creativ{
+	background: url('../image/creativ.png');
+	display: inline-block;
+	width: 100%;
+	height: 366px;
+	margin-left: 10px;
+    background-position-x: 49%;
+    background-position-y: 31%;
+}
+.images-block-right-column>.triangle{
+	background: url('../image/triangle.png');
+	display: inline-block;
+	width: 100%;
+	height: 577px;
+	margin-top: 13px;
+    margin-left: 7px;
+    background-position-x: 41%;
+}
+
+.images-block-left-column,.images-block-center-column,.images-block-right-column{
+	/*position: absolute;*/
+	width: 31.8%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top:10px; 
+}
+.images-block-left-column{
+	/*position: absolute;*/
+	/*width: 31.6%;*/
+}
+.images-block-center-column{
+	/*left: 31.6%;*/
+}
+.images-block-right-column{
+	/*right: 0;*/
+}
+.images-block-left-column>.penсisl,.spectacles{
+	/*height: 368px;*/
+
+}
+.images-block>.learn-more{
+	width: 170px;
+	height: 50px;
+	border: 1px solid #d8d8d8;
+	border-radius: 28px;
+	background-color: #000;
+	margin-top: 46px;
+	font-size: 20px;
+	outline: none;
+	color: #fff;
+	font-family: 'ML', arial;
+}

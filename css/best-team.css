@@ -1,0 +1,103 @@
+@import"../fonts/montserrat/montserrat.css";
+
+.best-team-block{
+	width: 100%;
+	margin: 0 auto;
+	height: 710px;
+	background-color: #ffe1bd;
+	padding: 0 40px;
+}
+.best-team-title{
+	text-align: center;
+	font-family: 'MH', arial;
+	font-size: 60px;
+	padding-top: 77px;
+}
+.best-team-block .team-slider{
+	margin: 0 auto;
+	width: 50%;
+}
+.best-team-block~.element-1,.element-2,.element-3{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+}
+.best-team-block .team-person-div{
+	margin-top: 90px;
+	width: 63%;
+
+	
+}
+.best-team-block .team-person-div img{
+	width: 100%;
+}
+.best-team-block .team-person-div .photo{
+	border-radius: 50%;
+	width: 62%;
+	height: 170px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.best-team-block .team-person-div .position:before{
+	position: absolute;
+	content: '';
+	width:20%;
+	height: 2px;
+	background-color:black;
+	bottom: 71%;
+	left: 40%;
+}
+.best-team-block .team-person-div .name, .position{
+	text-align: center;
+}
+.team-person-div>.name{
+	font-family: 'MB', arial;
+	font-size: 40px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.team-person-div>.position{
+	font-family: 'ML', arial;
+	font-size: 20px;
+	padding-top: 23px;
+	position: relative;
+}
+.slick-next:before{
+	left: 107px;
+	position: absolute;
+	content: url(../image/next.png);
+	bottom: 10px;
+}
+.slick-next:hover:before{
+	left: 107px;
+	position: absolute;
+	content: url(../image/next-focus.png);
+	bottom: 10px;
+}
+.slick-prev.slick-arrow:before{
+	content: url(../image/back.png);
+	position: absolute;
+	right: 112px;
+    bottom: 10px;
+}
+.slick-prev.slick-arrow:hover:before{
+	right: 112px;
+	position: absolute;
+	content: url(../image/back-focus.png);
+	bottom: 10px;
+}
+.slick-dots li button:before{
+	width: 10px;
+    height: 10px;
+	border-radius: 6px;
+	margin-top: 38px;
+	opacity: 1.5;
+	background-color: #ffe1bd;
+    border: 1px solid black;
+    content: '';
+
+}
+.slick-dots li.slick-active button:before{
+	background-color: #000;
+}
