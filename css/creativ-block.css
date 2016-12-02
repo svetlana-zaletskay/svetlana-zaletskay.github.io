@@ -8,11 +8,10 @@
 	padding-top: 77px;
 }
 div.creativ-kitchen-block>div.creativ-kitchen-left-column{
-	background: url('../image/kitchen.png');
 	width: 48.5%;
 	height: 561px;
 	display: inline-block;
-	background-position: 30%;
+	background: url('../image/kitchen.png') 30%;
 }
 div.creativ-kitchen-block .creativ-kitchen-right-column{
 	display: inline-block;

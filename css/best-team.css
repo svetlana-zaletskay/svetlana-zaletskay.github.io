@@ -31,6 +31,9 @@
 .best-team-block .team-person-div img{
 	width: 100%;
 }
+.team-person-div:focus{
+	 outline: none;
+}
 .best-team-block .team-person-div .photo{
 	border-radius: 50%;
 	width: 62%;
@@ -68,6 +71,7 @@
 	position: absolute;
 	content: url(../image/next.png);
 	bottom: 10px;
+
 }
 .slick-next:hover:before{
 	left: 107px;
