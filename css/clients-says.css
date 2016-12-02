@@ -7,7 +7,7 @@
 }
 .clients-says-title{
 	text-align: center;
-	font-family: 'MH', arial;
+	font-family: 'MH', arial, sans-serif;
 	font-size: 60px;
 	padding-top: 70px;
 }
@@ -21,7 +21,7 @@
 
 }
 .clients-name{
-   font-family: 'MB', arial;
+	font-family: 'MB', arial, sans-serif;
 	font-size: 40px;
 	margin: 0 auto;
 	display: block;
@@ -38,7 +38,7 @@
 	position: absolute;
 }
 .clients-position{
-	font-family: 'ML', arial;
+	font-family: 'ML', arial, sans-serif;
 	font-size: 20px;
 	padding-right: 48px;
 }
@@ -50,7 +50,7 @@
     color:#656565;
 	font-size: 18px;
 	line-height: 27px;
-	font-family: 'ML', arial;
+	 font-family: 'ML', arial, sans-serif;
 	vertical-align: top;
     padding: 80px 328px 0 44px;
 }
