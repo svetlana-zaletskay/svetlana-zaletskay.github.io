@@ -23,7 +23,7 @@
 	border-radius: 50%;
 }
 .best-team-block .team-person-div{
-	margin-top: 90px;
+	margin-top: 60px;
 	width: 63%;
 
 	
@@ -36,8 +36,8 @@
 }
 .best-team-block .team-person-div .photo{
 	border-radius: 50%;
-	width: 62%;
-	height: 170px;
+	width: 80%;
+	height: 164px;
 	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
