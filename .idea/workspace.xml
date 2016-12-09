@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6b372f8-55cb-4ff3-95f5-ebb793db67fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/what-we-do.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/art-installation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/creativ-block.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/print-design.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/graf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/parrot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/penсils.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/spectacles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/triangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/women-2-2.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/women-1.png" afterPath="$PROJECT_DIR$/image/women-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/women-2.png" afterPath="$PROJECT_DIR$/image/women-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/women-3.png" afterPath="$PROJECT_DIR$/image/women-3.png" />
+    <list default="true" id="d6b372f8-55cb-4ff3-95f5-ebb793db67fc" name="Default" comment="4">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/creativ-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/graf-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/men-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/men-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/men-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/men-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/parrot-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/penсils-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/spectacles-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/triangle-1.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/creativ.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/best-team.css" afterPath="$PROJECT_DIR$/css/best-team.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/clients-says.css" afterPath="$PROJECT_DIR$/css/clients-says.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/our-best-work.css" afterPath="$PROJECT_DIR$/css/our-best-work.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/clemo.js" afterPath="$PROJECT_DIR$/js/clemo.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,62 +34,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding>
                 <marker date="1481310532021" expanded="true" signature="6918:7143" ph="..." />
                 <marker date="1481310532021" expanded="true" signature="6919:7143" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clients-says.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/clients-says.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="101" column="1" lean-forward="false" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="our-best-work.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/our-best-work.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1105">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="163" column="25" lean-forward="false" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="best-team.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/best-team.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clemo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/clemo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,6 +155,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,7 +498,7 @@
       <workItem from="1480713875539" duration="30782000" />
       <workItem from="1481133081526" duration="5286000" />
       <workItem from="1481222805905" duration="6502000" />
-      <workItem from="1481298890897" duration="8243000" />
+      <workItem from="1481298890897" duration="10053000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1480713915469</created>
@@ -565,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480718447393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3">
+      <created>1481310742921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481310742921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52019000" />
+    <option name="totallyTimeSpent" value="53829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -869,10 +832,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/men-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/men-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/men-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/men-4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/parrot-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/penсils-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/spectacles-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/triangle-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding>
             <marker date="1481310532021" expanded="true" signature="6918:7143" ph="..." />
             <marker date="1481310532021" expanded="true" signature="6919:7143" ph="..." />
