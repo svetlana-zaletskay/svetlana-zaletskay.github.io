@@ -1,0 +1,88 @@
+.what-we-do .left-column{
+    width: 47.8%;
+    height: 561px;
+    display: inline-block;
+}
+.what-we-do .left-column .kitchen{
+    background: url('../image/kitchen.png') 30%;
+    height: 561px;
+    /*background-position: -131px;*/
+}
+.what-we-do .print-design{
+    background-image: url('../image/print design.png');
+    height: 562px;
+    background-position: -131px;
+}
+.what-we-do .art-img{
+    background: url('../image/art-installation.png');
+    height: 561px;
+    background-position: -131px;
+}
+.what-we-do .right-column{
+    display: inline-block;
+    vertical-align: top;
+    width: 47.8%;
+    margin-top: -13px;
+    padding-left: 8%;
+}
+.what-we-do .text-1,.text-2{
+    color:#656565;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'ML', arial, sans-serif;
+}
+.what-we-do .text-1{
+    padding-top: 44px;
+}
+.what-we-do .text-2{
+    padding-top: 26px;
+}
+.what-we-do .learn-more{
+    width: 170px;
+    height: 50px;
+    border: 1px solid #d8d8d8;
+    border-radius: 28px;
+    background-color: #fff;
+    margin-top: 46px;
+    font-size: 20px;
+    outline: none;
+}
+.what-we-do .creativ-kitchen-block-title{
+    text-align: center;
+    font-family: 'MH', arial, sans-serif;
+    font-size: 60px;
+    height: 233px;
+    padding-top: 77px;
+}
+
+.what-we-do .title{
+    position: relative;
+}
+.what-we-do .title>.title-1{
+    display: block;
+    font-size: 30px;
+    font-family: 'ML', arial, sans-serif;
+}
+.what-we-do .title>.title-2{
+    font-size: 48px;
+    font-family: 'MB', arial, sans-serif;
+}
+.what-we-do .title>.title-2:after{
+    position: absolute;
+    content: '';
+    width: 55px;
+    height: 2px;
+    top: 108px;
+    left: 1px;
+    background-color: #000;
+}
+.what-we-do .art-installation .right-column{
+    padding-left: 1%;
+}
+.what-we-do .art-installation .left-column{
+    padding-right:8%;
+}
+.what-we-do .what-we-do-block:not(:first-child){
+    padding-top: 100px;
+    padding-top: 100px;
+}

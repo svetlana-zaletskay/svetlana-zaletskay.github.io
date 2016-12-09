@@ -2,28 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/creativ-block.css">
-    <link rel="stylesheet" href="css/art-installation.css">
-    <link rel="stylesheet" href="css/print-design.css">
     <link rel="stylesheet" href="css/our-best-work.css">
     <link rel="stylesheet" href="css/best-team.css">
     <link rel="stylesheet" href="css/clients-says.css">
+    <link rel="stylesheet" href="css/what-we-do.css">
 </head>
 <body>
-<header>
+<div class="wrapper"><header>
     <a href="#" class="logo">clemo.</a>
     <nav class="nav">
+        <a id="mobileMenuButton" href="javascript:void(0);" class="mobile-menu"></a>
         <a href="#" class="link-nav">about us</a>
         <a href="#" class="link-nav">services</a>
         <a href="#" class="link-nav">works</a>
         <a href="#" class="link-nav">blog</a>
         <a href="#" class="link-nav">contact</a>
+
     </nav>
 </header>
 
@@ -33,62 +34,80 @@
             <h1>we are clemo.</h1>
             <p class="professionals">professionals</p>
             <p class="industries">in the creative industries</p>
-            <input class="get-in-touch" type="button" name="submit" value="get in touch">
+            <a href="#" class="get-in-touch">get in touch</a>
         </div>
     </div>
-    <div class="creativ-kitchen-block">
-        <div class="creativ-kitchen-block-title">what we do?</div>
-        <div class="creativ-kitchen-left-column"></div>
-        <div class="creativ-kitchen-right-column">
-            <div class="kitchen-title">
-                <span class="title-1">creative</span>
-                <span class="title-2">kitchen</span>
+    <div class="what-we-do">
+        <div class="what-we-do-block">
+            <div class="creativ-kitchen-block-title">what we do?</div>
+            <div class="left-column">
+                <div class="kitchen"></div>
             </div>
-            <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+            <div class="right-column">
+                <div class="title">
+                    <span class="title-1">creative</span>
+                    <span class="title-2">kitchen</span>
+                </div>
+                <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque
+                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae
+                    vitae dicta sunt explicabo.
+                </div>
+                <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </div>
+                <input class="learn-more" type="button" name="submit" value="learn more">
             </div>
-            <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </div>
-            <input class="learn-more" type="button" name="submit" value="learn more">
         </div>
-    </div>
-    <div class="art-installation">
-        <div class="art-installation-left-column">
-            <div class="installation-title">
-                <span class="title-1">art</span>
-                <span class="title-2">installation</span>
-            </div>
-            <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-            </div>
-            <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </div>
-            <input class="learn-more" type="button" name="submit" value="learn more">
-        </div>
-        <div class="art-installation-right-colum"></div>
-    </div>
-    <div class="print-design">
-        <div class="print-design-left-column"></div>
-        <div class="print-design-right-column">
-            <div class="design-title">
-                <span class=title-1>print</span>
-                <span class=title-2>design</span>
-            </div>
-            <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-            </div>
-            <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </div>
-            <input class="learn-more" type="button" name="submit" value="learn more">
-        </div>
-    </div>
 
+        <div class="art-installation what-we-do-block">
+            <div class="left-column">
+                <div class="title">
+                    <span class="title-1">art</span>
+                    <span class="title-2">installation</span>
+                </div>
+                <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque
+                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae
+                    vitae dicta sunt explicabo.
+                </div>
+                <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </div>
+                <input class="learn-more" type="button" name="submit" value="learn more">
+            </div>
+            <div class="right-column">
+
+
+                <div class="art-img"></div>
+            </div>
+        </div>
+
+        <div class="what-we-do-block">
+            <div class="left-column">
+                <div class="print-design"></div>
+            </div>
+            <div class="right-column">
+                <div class="title">
+                    <span class=title-1>print</span>
+                    <span class=title-2>design</span>
+                </div>
+                <div class="text-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque
+                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae
+                    vitae dicta sunt explicabo.
+                </div>
+                <div class="text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </div>
+                <input class="learn-more" type="button" name="submit" value="learn more">
+            </div>
+        </div>
+
+    </div>
     <div class="our-best-work">our best work
         <div class="images-block">
             <div class="images-block-left-column">
@@ -103,45 +122,45 @@
                 <div class="creativ"></div> <!-- width="565" height="524"> -->
                 <div class="triangle"></div><!--  width="459" height="610" -->
             </div>
-            <input class="learn-more" type="button" name="submit" value="learn more">
-        </div>
+
+            <!--<div class="image-1">-->
+                    <!--<img class="penсils">-->
+                    <!--<img class="spectacles">-->
+            <!--</div>-->
+            <!--<div class="image-2">-->
+                    <!--<img class="parrot">-->
+                    <!--<img class="graf">-->
+            <!--</div>-->
+            <!--<div class="image-3">-->
+                    <!--<img class="creativ">-->
+                    <!--<img class="triangle">-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+    <input class="learn-more" type="button" name="submit" value="learn more">
     </div>
 </div>
 <div class="best-team-block">
     <div class="best-team-title">best team</div>
     <div class="team-slider">
-        <div class="team-person-div">
+        <div class="team-person-div a1">
             <div class="photo"><img src="image/women-1.png"></div>
             <div class="name">paul hall</div>
             <div class="position">art director</div>
         </div>
-        <div class="team-person-div">
-            <div class="photo"><img src="image/women-2-2.png"></div>
+        <div class="team-person-div a2">
+            <div class="photo"><img src="image/women-2.png"></div>
             <div class="name">joshua spencer</div>
             <div class="position">founder</div>
         </div>
-        <div class="team-person-div">
+        <div class="team-person-div a3">
             <div class="photo"><img src="image/women-3.png"></div>
             <div class="name">diane levis</div>
             <div class="position">artist, designer</div>
         </div>
-        <div class="team-person-div">
-            <div class="photo"><img src="image/women-3.png"></div>
-            <div class="name">diane levis</div>
-            <div class="position">artist, designer</div>
-        </div>
-        <div class="team-person-div">
+        <div class="team-person-div a4">
             <div class="photo"><img src="image/women-1.png"></div>
-            <div class="name">paul hall</div>
-            <div class="position">art director</div>
-        </div>
-        <div class="team-person-div">
-            <div class="photo"><img src="image/women-2-2.png"></div>
-            <div class="name">joshua spencer</div>
-            <div class="position">founder</div>
-        </div>
-        <div class="team-person-div">
-            <div class="photo"><img src="image/women-3.png"></div>
             <div class="name">diane levis</div>
             <div class="position">artist, designer</div>
         </div>
@@ -164,41 +183,41 @@
 
     <div class="client-portfolio-slider">
         <div class="photo-mens">
-            <img src="image/men-photo-1.png" alt="">
+            <img src="image/men-1.png" alt="">
         </div>
         <div class="photo-mens">
-            <img src="image/men-photo-2.png" alt="">
+            <img src="image/men-2.png" alt="">
         </div>
         <div class="photo-mens">
-            <img src="image/men-photo-3.png" alt="">
+            <img src="image/men-3.png" alt="">
         </div>
         <div class="photo-mens">
-            <img src="image/men-photo-4.png" alt="">
+            <img src="image/men-4.png" alt="">
         </div>
         <div class="photo-mens">
-            <img src="image/men-photo-1.png" alt="">
+            <img src="image/men-1.png" alt="">
         </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-2.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-3.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-4.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-1.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-2.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-3.png" alt="">
-        </div>
-        <div class="photo-mens">
-            <img src="image/men-photo-4.png" alt="">
-        </div>
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-2.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-3.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-4.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-1.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-2.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-3.png" alt="">-->
+        <!--</div>-->
+        <!--<div class="photo-mens">-->
+            <!--<img src="image/men-4.png" alt="">-->
+        <!--</div>-->
     </div>
 </div>
 <footer>
@@ -238,7 +257,7 @@
         <a class="copy" href="#">2016 clemo.</a>
         <div class="reserved">all rights reserved</div>
     </div>
-</div>
+</div></div>
 
 <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>

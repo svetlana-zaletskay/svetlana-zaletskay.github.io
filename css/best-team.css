@@ -18,8 +18,8 @@
 	width: 50%;
 }
 .best-team-block~.element-1,.element-2,.element-3{
-	width: 170px;
-	height: 170px;
+	width: 166px;
+	height: 166px;
 	border-radius: 50%;
 }
 .best-team-block .team-person-div{
@@ -36,7 +36,7 @@
 }
 .best-team-block .team-person-div .photo{
 	border-radius: 50%;
-	width: 80%;
+	width: 164px;
 	height: 164px;
 	overflow: hidden;
 	margin: 0 auto;
@@ -104,4 +104,9 @@
 }
 .slick-dots li.slick-active button:before{
 	background-color: #000;
+}
+@media all and (max-width: 575px) {
+	.slick-dots li button:before{
+		margin-top: 15px;
+	}
 }

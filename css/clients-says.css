@@ -67,8 +67,8 @@
 
 .client-portfolio-slider .photo-mens {
     display: inline-block;
-    width: 25%;
-    height: 156px;
+    width: 265px;
+    height: auto;
 }
 
 .client-portfolio-slider {
@@ -88,10 +88,35 @@
 }
 
 .client-portfolio-slider .slick-slide img {
- width: 95%;
-    min-height: 156px;
+    width: 95%;
+    height: 140px;
 }
 
 .photo-mens:focus {
     outline: none;
+}
+@media all and (max-width: 1024px) {
+    .client-portfolio-slider .slick-dots li button:before {
+        margin-top: 61px;
+    }
+}
+@media all and (max-width: 768px) {
+    .client-portfolio-slider .slick-dots li button:before {
+        margin-top: 30px;
+    }
+}
+@media all and (max-width: 667px) {
+    .client-portfolio-slider .slick-dots li button:before {
+        margin-top: 5px;
+
+    }
+}
+@media all and (max-width: 575px) {
+    .client-portfolio-slider .slick-dots li button:before {
+        margin-top: 5px;
+    }
+
+    .clients-name::after{
+        top: 107%;
+    }
 }
